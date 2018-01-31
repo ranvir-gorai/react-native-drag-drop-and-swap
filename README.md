@@ -190,11 +190,11 @@ class DDNS extends Component {
 }
 ```
 
-#Example implementation of Drag and Drop in React Native
+## Example implementation of Drag and Drop in React Native
 
 The implementation provides three components, DragContainer, Draggable, and DropZone. [Example](https://github.com/ranvirgorai/react-native-drag-drop-and-swap/tree/master/example/DDNS "Example")
 
-##DragContainer
+## DragContainer
 This component must be higher up the react tree than the other two components. It's size is not important, it just provides the context by which everything communicates.
 
 ## API
