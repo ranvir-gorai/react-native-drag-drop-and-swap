@@ -206,7 +206,7 @@ This component must be higher up the react tree than the other two components. I
 | `onDragStart` | Function | Yes      |         | Is called when dragging begins. It is passed a summary of the dragged element.                                                      |
 | `onDragEnd`   | Function | Yes      |         | Is called when dragging ends. It is passed two arguments, the same summary as onDragStart, and array of zones that were dropped on. |
 
-##DropZone
+## DropZone
 This is a wrapper component for an area where a Draggable element can be dropped.
 
 ### Props
@@ -218,12 +218,12 @@ This is a wrapper component for an area where a Draggable element can be dropped
 | `onDrop`   | Function | Yes      |         | Is called when an item is dropped. The data property of the draggable is passed through as an argument. |
 | `disabled` | Boolean  | Yes      |         | Prevents being a dropzone when when set to true.                                                        |
 
-####The children of the DropZone are passed the following props also;
+#### The children of the DropZone are passed the following props also;
 Prop | Type | Optional | Default | Description
 ------------------- | -------- | -------- | ------------ | -----------
 `dragOver` | Boolean |Yes| |Is true when there is an item being dragged over the zone.
 
-##Draggable
+## Draggable
 This is a wrapper component that makes it's children draggable.
 
 | Prop       | Type    | Optional | Default | Description                                                                         |
@@ -232,7 +232,7 @@ This is a wrapper component that makes it's children draggable.
 | `dragOn`   | String  | Yes      |         | Expects either onLongPress (default) or onPressIn. Determines when dragging begins. |
 | `disabled` | Boolean | Yes      |         | Prevents dragging when when set to true.                                            |
 
-####The children of the Draggable componnent are passed the following props also;
+#### The children of the Draggable componnent are passed the following props also;
 Prop | Type | Optional | Default | Description
 ------------------- | -------- | -------- | ------------ | -----------
 `dragging`| Boolean| Yes| |The component is being dragged.
