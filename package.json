@@ -1,0 +1,39 @@
+
+{
+  "_from": "react-native-drag-drop-and-swap",
+  "_id": "react-native-drag-drop-and-swap@0.1.1",
+  "version": "0.1.1",
+  "_location": "react-native-drag-drop-and-swap",
+  "name": "react-native-drag-drop-and-swap",
+  "_spec": "react-native-drag-drop-and-swap",
+  "description": "This module helps to impliment drag-and-drop-swap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/ranvirgorai/react-native-drag-drop-and-swap#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranvirgorai/react-native-drag-drop-and-swap"
+  },
+  "keywords": [
+    "react-native",
+    "drag-drop-and-swap",
+    "drag-drop",
+    "react",
+    "dnd",
+    "Ranvir",
+    "Jamshedpur"
+  ],
+   "author": {
+    "name": "Ranvir Gorai",
+    "email": "gorairanvir@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+  }
+}
+
